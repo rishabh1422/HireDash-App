@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="Student Info"></item>
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Mail"
+        app:showAsAction="never"
+
+        />
+
+
+        <item
+            android:icon="@drawable/ic_close_black_24dp"
+            android:id="@+id/logout"
+            android:title="logout"
+
+            />  <item
+        android:icon="@drawable/ic_close_black_24dp"
+        android:id="@+id/setting"
+        android:title="Setting">
+    </item>
+
+
+
+</group>
+
+
+</menu>

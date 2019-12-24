@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <include
+        layout="@layout/bar"
+        android:id="@+id/toolbar"
+        />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/ed"
+        android:text=" Placement with HireDesh"
+
+        android:textColor="#E2E9E9E7"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <EditText
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:textColorHint="#9C27B0"
+            android:layout_marginTop="10dp"
+            android:id="@+id/name"
+            android:hint="  Student Name"
+            android:background="@drawable/edit_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+            android:layout_below="@+id/name"
+            android:textColorHint="#9C27B0"
+            android:layout_marginTop="15dp"
+            android:id="@+id/company"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+            android:hint="  Apply to Company"
+            android:background="@drawable/edit_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+
+            android:layout_below="@+id/company"
+            android:layout_marginTop="15dp"
+            android:id="@+id/marks10"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_local_parking_black_24dp"
+            android:hint="  High School Percentage"
+            android:textColorHint="#9C27B0"
+            android:background="@drawable/edit_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+            android:layout_below="@+id/marks10"
+            android:layout_marginTop="15dp"
+            android:id="@+id/marks12"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_local_parking_black_24dp"
+            android:textColorHint="#9C27B0"
+            android:hint="  Intermediate Percentage"
+            android:background="@drawable/edit_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_local_parking_black_24dp"
+            android:layout_below="@+id/marks12"
+            android:layout_marginTop="15dp"
+            android:id="@+id/UG"
+            android:textColorHint="#9C27B0"
+            android:hint="  Under Graduation Percentage/CGPA"
+            android:background="@drawable/edit_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+       <EditText
+           android:paddingLeft="10dp"
+           android:drawableLeft="@drawable/ic_mail_black_24dp"
+           android:layout_below="@+id/UG"
+            android:layout_marginTop="15dp"
+            android:id="@+id/email"
+            android:textColorHint="#9C27B0"
+            android:hint="  Email ID"
+            android:background="@drawable/edit_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_below="@+id/email"
+            android:id="@+id/pass"
+            android:textColorHint="#9C27B0"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_back"
+            android:hint="  Password" />
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/pass"
+            android:id="@+id/register"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="SignUp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/ed"
+             />
+
+
+    </RelativeLayout>
+   
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sea"
+    tools:context=".LoginActivity">
+    <include
+       layout="@layout/bar"
+        android:id="@+id/toolbar"
+        />
+
+    <TextView
+        android:background="@drawable/ed"
+        android:id="@+id/tv"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="200dp"
+        android:text="   HireDesh"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textColorHint="#9C27B0"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:layout_below="@+id/tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/email"
+        android:textColorHint="#9C27B0"
+        android:hint="  Email ID"
+        android:background="@drawable/edit_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:textColorHint="#9C27B0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_back"
+        android:hint="  Password" />
+    <Button
+        android:layout_below="@+id/pass"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="#E91E63"
+        android:id="@+id/signup"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="SignIn"
+        android:background="@drawable/edit_back"
+         />
+
+</RelativeLayout>

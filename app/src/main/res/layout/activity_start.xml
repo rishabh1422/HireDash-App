@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:background="@drawable/sea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+    <TextView
+        android:layout_marginTop="150dp"
+        android:textColorHint="#E91E63"
+       android:textAlignment="center"
+        android:text="HireDesh"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/ed"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/tv"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_below="@+id/tv"
+        android:id="@+id/btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+
+        android:background="@drawable/edit_back"
+        android:textColor="#5E35B1"
+        android:layout_marginRight="30dp"
+        android:text="Log in"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_back"
+        android:text="Register"
+        android:textColor="#5E35B1" />
+
+
+
+</RelativeLayout>

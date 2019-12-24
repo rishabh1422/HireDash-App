@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "905518313757",
+    "firebase_url": "https://chatwithus-3dbc8.firebaseio.com",
+    "project_id": "chatwithus-3dbc8",
+    "storage_bucket": "chatwithus-3dbc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905518313757:android:ec7d2118abdaaa99fab1f4",
+        "android_client_info": {
+          "package_name": "com.example.chatwithus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905518313757-ugm93lhkqm54bk5gsl40umr8hucrd052.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatwithus",
+            "certificate_hash": "23232d3086fdf3a9ab57f3ea8106c05c8f41eb29"
+          }
+        },
+        {
+          "client_id": "905518313757-0isi9bgc20b5ube536o86qpkbd02oo70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRnv7W1yqAFGdhGq6_6i9VNmbPVEc3pd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905518313757-0isi9bgc20b5ube536o86qpkbd02oo70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
